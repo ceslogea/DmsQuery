@@ -26,6 +26,7 @@ namespace WebAppHiper.Models
 
         public DmsViewModel(Dms dms)
         {
+            item = dms;
             DataCorte = dms.DataCorte;
             DataProcessamento = dms.DataProcessamento;
             DataVencimento = dms.DataVencimento;
